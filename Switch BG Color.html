@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch BG Color</title>
+    <style>
+        button {
+            /* background-color: aquamarine; */
+            color: black;
+            font-size: 20px;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            border-radius: 20px;
+            position: absolute;
+            top: 250px;
+            left: 400px; 
+        }
+
+        .white {
+            background-color: white;
+            color: black;
+        }
+
+        .black {
+            background-color: black;
+            color: white;
+        }
+
+        button:hover {
+            /* height: 150px; */
+            width: 150px;
+            font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 1000px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <button id="cha-co">
+        Change Color
+    </button>
+
+    <p>Welcome to my website.</p>
+
+
+
+    <script>
+        let btn = document.querySelector("#cha-co");
+        let currMode = "white";
+        let body = document.querySelector("body")
+        btn.addEventListener ("click",() => {
+            if (currMode === "white") {
+                currMode = "black";
+                document.querySelector("body").style.backgroundColor = "black";
+                document.querySelector("body").style.color = "white";
+                document.getElementById("cha-co").style.backgroundColor = "white";
+                // body.classList.add("black");
+                // body.classList.remove("white");
+            } else if (currMode === "black") {
+                currMode = "blue";
+                document.querySelector("body").style.backgroundColor = "blue";
+                document.getElementById("cha-co").style.backgroundColor = "yellow";
+                // body.classList.add("white");
+                // body.classList.remove("black");
+            } else {
+                currMode = "white";
+                document.querySelector("body").style.backgroundColor = "white";
+                document.querySelector("body").style.color = "black";
+                document.getElementById("cha-co").style.backgroundColor = "pink";
+                // body.classList.add("black");
+                // body.classList.remove("white");
+            }
+
+            console.log(currMode);
+            
+        });
+    </script>
+</body>
+</html>

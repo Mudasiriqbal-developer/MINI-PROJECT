@@ -1,0 +1,85 @@
+*{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-image: url("./images/pawel.jpg");
+            background-size: cover;
+            text-align: center;
+        }
+
+        .container {
+            height: 70vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5vmin;
+        }
+
+        .game {
+            height: 60vmin;
+            width: 60vmin;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5vmin;
+        }
+
+        .box {
+            height: 18vmin;
+            width: 18vmin;
+            border-radius: 1rem;
+            border: none;
+            box-shadow: 0 0 1rem rgb(0 0 3);
+            font-size: 8vmin;
+            color: brown;
+            background-image: url("./images/deserts.png");
+            background-size: cover;
+        }
+
+        #reset-btn {
+            padding: 1rem;
+            font-size: 2rem;
+            color: black;
+            border-radius: 1rem;
+            border: none;
+            background-image: url("./images/fatih.jpg");
+            background-size: cover;
+        }
+
+        #new-btn {
+            padding: 1rem;
+            font-size: 2rem;
+            color: black;
+            border-radius: 1rem;
+            border: none;
+            background-image: url("./images/fatih.jpg");
+            background-size: cover;
+        }
+
+        #msg {
+            color: rgb(23, 22, 22);
+            font-size: 7vmin;
+        }
+
+        .msg-container {
+            height: 100vmin;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        #status {
+            margin-bottom: 20px;
+            font-size: 20px;
+            color: #181717;
+       }
