@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--Body Section-->
+<body>
+     <h1>Hello Word!</h1>
+     <h2>Welcome To My First HTML Cobe</h2>
+     <hr>
+     <p>My name is Mudasi Iqbal, Now i am learning HTML from Apna College.
+        This is my second time to learn html on the second time i am only
+        revice my previos memory.
+     </p>
+     <hr>
+     <!-- Add Links-->
+
+     <a href = "https://www.google.com/" target = "_main">Google</a>
+     <br>
+     <a href="https://code.visualstudio.com/download" target = "_main"><img src = "vs code logo_files/" ></a>
+     <br>
+     <a href="/Hello.html" target = "_main">Go To Hello</a>
+     <br>
+     <hr>
+     <!-- Add Pics-->
+     <img src="/image.jpg" height = "100" />
+    <br>
+    <hr>
+    <b>Bold</b>
+    <br>
+    <i>Itallic</i>
+    <br>
+    <u>Underline</u>
+    <br>
+    <big>This tag shaws big text</big>
+    <br>
+    <samll>This tag shows samall text</samll>
+    <br>
+    <!-- Used to display a horizental ruler, used to seperste content-->
+    <big>This tag shaws big text</big>
+    <br>
+    <hr>
+    <samll>This tag shows samall text</samll>
+    <br>
+    <!--Subscipt & Superscript Tag-->
+    <p>H<sub>2</sub>O</p>
+    <p>A<sup>n</sup>+ B</p>
+    <hr>
+    <!--Pre Tag-->
+    <!-- Used to display text as it is (Without ignoring Spaces & next line)-->
+     <pre>
+        My name is Mudasi Iqbal,                   Now i am learning HTML from Apna College.
+        This is my second time to learn html on the second time i am only
+        revice my previos memory.
+    </pre>
+    <!--Main Section-->
+    <!-- 1. Section-->
+     <main>
+     <section>This is a Section part of the code</section>
+     <article> My Story</article>
+     <aside>This is an Add</aside>
+    </main>
+    <!--Div Tage-->
+    <!--Div is a container used for other HTML elements BLOCK (Takes full width)-->
+    <div>
+        <P>Salamualaikum</P>
+        <p>Sanga Ye</p>
+    </div>
+    <div>
+        <p>Walaikum salam</p>
+        <p>Khair de</p>
+    </div>
+    <hr>
+    <!--Span Tag-->
+    <!--Span is a container used for other HTML element-->
+    <!--INLINE element (Takes width as per Size)-->
+    <span>
+        Salamualaikum
+    </span>
+    <br>
+    <span>
+        Walaikum salam
+    </span>
+    <!--LIST IN HTML-->
+    <!--List are used to represent real life list data.-->
+    <!--1. Unordered-->
+    <ul>
+        <li>Apple</li>
+         <ul>
+            <li>Red</li>
+            <li>Winter</li>
+        </ul>    
+        <li>Mango</li>
+        <ul>
+            <li>yellow</li>
+            <li>Summer</li>
+        </ul>    
+        <li>Litchi</li>
+    </ul>
+    <!--2. Ordered-->
+    <ol>
+        <li>Apple</li>
+        <!--Sub List-->
+        <ul>
+            <li>Red</li>
+            <li>Winter</li>
+        </ul>    
+        <li>Mango</li>
+        <ul>
+            <li>yellow</li>
+            <li>Summer</li>
+        </ul>    
+        <li>Litchi</li>
+    </ol>
+    <!--Table in HTML-->
+    <!--1.<tr> Used to display Table row
+        2.<td> Used to display Table data
+        3.<th> Used to display Table header-->
+    <table>
+        <thead>
+        <!--Caption in Table-->
+        <caption>Student Data</caption>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Roll No
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                Mudasir
+            </td>
+            <td>
+                231163
+            </td>
+        </tr>     
+        <tr>   
+            <td>
+                M Umar
+            </td>
+            <td>
+                231184
+            </td>
+        </tr>
+        <tr>   
+            <td>
+                Abid
+            </td>
+            <td>
+                231180
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <!--Form In HTML-->
+    <!--Forms are used to collect data from the user
+        Eg-sign up/login/help request/contect me-->    
+        <form action = "index.html">
+            <input type ="text" placeholder="User Name">
+            <br>
+            <input type ="password" placeholder="Password">
+            <br>
+            <!--Radio Buttun-->
+            <!--Label-->
+           <label for="101">
+            <input type="radio" value="Class XI"Name="Class" id="101">Class XI
+            </label>
+            <br>
+            <input type="radio" value="Class XII"Name="Class">Class XII
+            <br>
+            <!--Check Box -->
+            <labe for="math">
+             <input type="checkbox" value="math" name="subject" id="101">Math
+            </labe>
+            <br>
+            <labe for="phy">
+             <input type="checkbox" value="phy" name="subject" id="102">Phy
+            </labe>
+            <br>
+            <labe for="chem">
+             <input type="checkbox" value="chem" name="subject" id="103">chem
+            </labe>
+            <br>
+            <labe for="mbioath">
+             <input type="checkbox" value="bio" name="subject" id="104">bio
+            </labe>
+            <br><br>
+            <!--Select-->
+            <select name="city">
+                <option value="Peshawar">Peshawar</option>
+                <option value="Banu">Banu</option>
+                <option value="Kohat">Kohat</option>
+                <option value="Charsada">Charsada</option>
+                <option value="Mardan">Mardam</option>
+            </select>
+            <br><br>
+            <textarea name="Feedback" id="101" placeholder="Give your feedback here " rows=5 column=5>FeedBack</textarea>
+            <br>
+            <!--Submit-->
+            <input type="Submit" value="Submit">
+            <!--IFrame-->
+            
+        </form>
+
+</body>
+</html>
